@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{34f184aa-d903-4036-92af-64b9fec33b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystem">
+      <UniqueIdentifier>{96cb2d30-2d53-4967-a00b-00c6c0e1c5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManagers">
+      <UniqueIdentifier>{4a5018db-a714-4b56-8dff-20a89e68869d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectManagers">
+      <UniqueIdentifier>{cf397c73-8511-4330-b63f-3353349719dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystem\Core">
+      <UniqueIdentifier>{3c1f9979-a632-47e6-8a90-863d3ad94a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{baedc915-5910-4f00-8175-bdf7734c7f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>CoreSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>ResourceManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>ResourceManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>ResourceManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>ResourceManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>CoreSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorManager.h">
+      <Filter>ObjectManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>CoreSystem\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Renderer.h">
+      <Filter>CoreSystem\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>CoreSystem\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AActor.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>CoreSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>ResourceManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>ResourceManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>ResourceManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>ResourceManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>CoreSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorManager.cpp">
+      <Filter>ObjectManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>CoreSystem\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11Renderer.cpp">
+      <Filter>CoreSystem\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>CoreSystem\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AActor.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
