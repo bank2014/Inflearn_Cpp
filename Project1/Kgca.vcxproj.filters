@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>System\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Container</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicArray.cpp">
+      <Filter>Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionSort.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListIterator.cpp">
+      <Filter>IteratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Data\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Container.cpp">
+      <Filter>Container\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterator.cpp">
+      <Filter>IteratorPattern\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="DArrayIterator.cpp">
+      <Filter>IteratorPattern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>System\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicArray.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionSort.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListIterator.h">
+      <Filter>IteratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Data\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Container\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>IteratorPattern\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="DArrayIterator.h">
+      <Filter>IteratorPattern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{36bb987e-81f1-4883-9509-78ecd2a5be60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{f355f619-1997-4c0e-93c3-63dd1170ad8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sort">
+      <UniqueIdentifier>{89371229-b080-4552-868e-c8083f81c05d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container">
+      <UniqueIdentifier>{fc1633b3-4ae7-4291-8180-72918a806468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\pch">
+      <UniqueIdentifier>{965ac736-9094-42db-82b5-18e63593d106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Interface">
+      <UniqueIdentifier>{a7444f5a-3cf6-4ea5-ae5d-6035968a11f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container\Interface">
+      <UniqueIdentifier>{dd7ddfe6-91bc-4ccc-8f88-92492fb79a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IteratorPattern">
+      <UniqueIdentifier>{5e085210-b169-4755-9c11-dc9b7ff15713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IteratorPattern\Interface">
+      <UniqueIdentifier>{212171a1-763a-458c-bcf6-3563d0076ef4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
